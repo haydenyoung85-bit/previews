@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Pressure Washing in McAlester, OK | Powers Washing Services</title>
 <meta name="description" content="Powers Washing Services LLC offers pressure washing, soft washing, house and roof washing, concrete, fencing and commercial cleaning in McAlester, OK and Southeast Oklahoma. Call 918-424-1283 for a free quote.">
-<meta name="theme-color" content="#000000">
+<meta name="theme-color" content="#0E0F11">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Pressure Washing in McAlester, OK | Powers Washing Services">
 <meta property="og:description" content="House washing, soft washing, roof wash, concrete, fencing and commercial cleaning across Southeast Oklahoma. Locally owned and operated. Call 918-424-1283.">
@@ -78,309 +78,123 @@
 </script>
 
 <style>
-/* Layout concept: hard-edged bands alternating black and white, heavy condensed capitals,
-   the PWS droplet as the only ornament, photos doing the selling. Single committed look. */
-:root{
-  --black:#000000;
-  --ink:#0c0d0e;
-  --char:#17181b;
-  --rule:#2b2d31;
-  --red:#C8202B;
-  --red-deep:#a81922;
-  --gold:#F2B91C;
-  --blue:#2E86C8;
-  --white:#ffffff;
-  --mist:#eceef0;
-  --text:#14161a;
-  --muted:#565c63;
-  --muted-on-dark:#b9bec5;
-  --display:'Barlow Condensed','Arial Narrow','Helvetica Neue',Arial,sans-serif;
-  --body:'Source Sans 3','Helvetica Neue',Arial,sans-serif;
-  --gutter-l:max(16px, env(safe-area-inset-left, 0px));
-  --gutter-r:max(16px, env(safe-area-inset-right, 0px));
-  color-scheme:light;
-}
+:root{--bg:#0E0F11;--bg2:#15171A;--line:#24272c;--text:#EDEDED;--muted:#9A9DA3;--m:#7A1F2B;--mh:#8E2633;--gold:#F2B91C;--blue:#2E86C8;
+--display:'Barlow Condensed','Arial Narrow','Helvetica Neue',Arial,sans-serif;--body:'Source Sans 3','Helvetica Neue',Arial,sans-serif;
+--gl:max(22px,env(safe-area-inset-left,0px));--gr:max(22px,env(safe-area-inset-right,0px));color-scheme:dark}
 *{box-sizing:border-box}
-html{scroll-behavior:smooth;scroll-padding-top:84px}
-body{margin:0;background:var(--black);color:var(--text);font-family:var(--body);font-size:1.0625rem;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
-body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--black);z-index:60}
+html{scroll-behavior:smooth;scroll-padding-top:72px;background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--body);font-size:1.0625rem;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 img{max-width:100%;display:block}
 a{color:inherit}
-h1,h2,h3,h4{font-family:var(--display);text-transform:uppercase;line-height:1;margin:0;text-wrap:balance;font-weight:700}
+h1,h2,h3{font-family:var(--display);text-transform:uppercase;font-weight:700;line-height:1;margin:0;letter-spacing:.02em;text-wrap:balance}
 p{margin:0}
-:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
-
-.wrap{width:100%;max-width:1240px;margin:0 auto;padding-left:var(--gutter-l);padding-right:var(--gutter-r)}
-.band{padding-block:clamp(56px,8vw,104px)}
-.dark{background:var(--black);color:var(--white)}
-.dark2{background:var(--ink);color:var(--white)}
-.light{background:var(--white);color:var(--text)}
-.mist{background:var(--mist);color:var(--text)}
-.muted{color:var(--muted)}
-.dark .muted,.dark2 .muted{color:var(--muted-on-dark)}
-
-.drop{display:inline-block;width:.62em;height:.62em;background:var(--blue);border-radius:0 50% 50% 50%;transform:rotate(-45deg);flex:none}
-.drop.gold{background:var(--gold)}
-.eyebrow{display:flex;align-items:center;gap:.7em;font-family:var(--display);font-weight:600;text-transform:uppercase;letter-spacing:.16em;font-size:1rem;color:var(--gold);margin-bottom:14px}
-.light .eyebrow,.mist .eyebrow{color:var(--red)}
-.light .eyebrow .drop,.mist .eyebrow .drop{background:var(--red)}
-h2{font-size:clamp(2.1rem,5vw,3.6rem);letter-spacing:.005em}
-.lead{font-size:clamp(1.1rem,1.6vw,1.28rem);max-width:62ch;margin-top:18px}
-.sec-head{margin-bottom:clamp(32px,5vw,56px)}
-
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;font-family:var(--display);font-weight:700;text-transform:uppercase;letter-spacing:.07em;font-size:1.2rem;line-height:1;padding:17px 28px;border:2px solid transparent;border-radius:2px;text-decoration:none;cursor:pointer;transition:background .18s,color .18s,border-color .18s,transform .18s}
-.btn:active{transform:translateY(1px)}
-.btn-red{background:var(--red);color:var(--white)}
-.btn-red:hover{background:var(--red-deep)}
-.btn-gold{background:var(--gold);color:var(--black)}
-.btn-gold:hover{background:#ffd04d}
-.btn-line{border-color:var(--white);color:var(--white)}
-.btn-line:hover{background:var(--white);color:var(--black)}
-.btn-sm{font-size:1.08rem;padding:12px 18px}
-
-/* Header */
-.site-header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--black);border-bottom:3px solid var(--red)}
-.hdr{display:flex;align-items:center;gap:20px;min-height:72px}
-.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--white);min-width:0}
-.brand img{width:48px;height:48px;border-radius:50%;flex:none}
-.brand b{font-family:var(--display);font-size:1.45rem;text-transform:uppercase;letter-spacing:.04em;line-height:1;font-weight:700;white-space:nowrap}
-.brand b i{font-style:normal;color:var(--gold)}
-@media (max-width:480px){.brand{gap:8px}.brand img{width:40px;height:40px}.brand b{font-size:1.05rem;white-space:normal;line-height:1.05}.menu-btn{flex:none;margin-left:10px;padding:8px 11px;font-size:.95rem}}
-.nav{display:flex;gap:2px;margin-left:auto;align-items:center}
-.nav a{font-family:var(--display);font-weight:600;text-transform:uppercase;letter-spacing:.09em;font-size:1.02rem;text-decoration:none;color:var(--white);padding:10px 11px;position:relative}
-.nav a:hover{color:var(--gold)}
-.hdr .btn{margin-left:10px;white-space:nowrap}
-.menu-btn{display:none;margin-left:auto;background:none;border:2px solid var(--white);color:var(--white);font-family:var(--display);font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:1.05rem;padding:9px 14px;border-radius:2px;cursor:pointer}
-@media (max-width:1100px){
-  .nav a{padding:10px 8px;font-size:.95rem}
-}
-@media (max-width:960px){
-  .menu-btn{display:block}
-  .hdr .btn{display:none}
-  .nav{display:none;position:absolute;left:0;right:0;top:100%;background:var(--black);flex-direction:column;align-items:stretch;padding:8px var(--gutter-r) 18px var(--gutter-l);border-bottom:3px solid var(--red);margin:0}
-  .nav.open{display:flex}
-  .nav a{padding:15px 4px;border-bottom:1px solid var(--rule);font-size:1.2rem}
-  .nav .nav-call{display:block;margin-top:14px;text-align:center;background:var(--red);padding:16px;border:0}
-}
-@media (min-width:961px){.nav .nav-call{display:none}}
-
-/* Hero */
-.hero{position:relative;color:var(--white);background:var(--black);isolation:isolate;overflow:hidden}
-.hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;background:#16181b}
-.hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(0,0,0,.88) 0%,rgba(0,0,0,.62) 55%,rgba(0,0,0,.4) 100%),linear-gradient(0deg,rgba(0,0,0,.65),rgba(0,0,0,0) 45%)}
-.hero .wrap{padding-block:clamp(72px,12vw,160px) clamp(64px,9vw,120px)}
-.hero h1{font-size:clamp(2.9rem,8.2vw,6.2rem);line-height:.92;max-width:13ch;letter-spacing:.005em}
-.hero h1 em{font-style:normal;color:var(--gold)}
-.hero p.sub{font-size:clamp(1.1rem,1.9vw,1.4rem);max-width:46ch;margin-top:24px;color:#e8eaed}
-.hero .cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
-.hero .meta{margin-top:30px;font-family:var(--display);text-transform:uppercase;letter-spacing:.14em;font-weight:600;font-size:1rem;color:var(--muted-on-dark);display:flex;flex-wrap:wrap;gap:6px 22px}
-.hero .meta span{display:inline-flex;gap:.6em;align-items:center}
-
-/* Trust strip */
-.trust{background:var(--red);color:var(--white)}
-.trust ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr)}
-.trust li{display:flex;align-items:center;gap:12px;padding:20px 18px;font-family:var(--display);font-weight:700;text-transform:uppercase;letter-spacing:.07em;font-size:1.18rem;line-height:1.1;border-left:1px solid rgba(255,255,255,.28)}
-.trust li:first-child{border-left:0;padding-left:0}
-.trust .drop{background:var(--gold)}
-@media (max-width:900px){
-  .trust ul{grid-template-columns:1fr 1fr}
-  .trust li{border-left:0;padding:16px 8px 16px 0;border-top:1px solid rgba(255,255,255,.28)}
-  .trust li:nth-child(-n+2){border-top:0}
-}
-@media (max-width:480px){
-  .trust ul{grid-template-columns:1fr}
-  .trust li:nth-child(2){border-top:1px solid rgba(255,255,255,.28)}
-}
-
-/* Services */
-.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:3px solid var(--text);border-left:1px solid #c9cdd2}
-.svc{padding:28px 26px 30px;border-right:1px solid #c9cdd2;border-bottom:1px solid #c9cdd2;background:var(--white);min-width:0;transition:background .2s}
-.svc:hover{background:#f7f8f9}
-.svc h3{font-size:1.75rem;display:flex;align-items:center;gap:.5em;margin-bottom:10px}
-.svc h3 .drop{font-size:1.05rem}
-.svc p{color:var(--muted);font-size:1.02rem}
-.svc-cta{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;background:var(--black);color:var(--white);padding:30px 28px;border-bottom:4px solid var(--gold)}
-.svc-cta h3{font-size:2rem;margin-bottom:6px}
-.svc-cta p{color:var(--muted-on-dark);max-width:60ch}
-@media (max-width:900px){.svc-grid{grid-template-columns:1fr 1fr}}
-@media (max-width:560px){.svc-grid{grid-template-columns:1fr}}
-
-/* Soft vs pressure */
-.versus{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--rule)}
-.vs{padding:clamp(28px,4vw,52px);min-width:0}
-.vs + .vs{border-left:1px solid var(--rule)}
-.vs .tag{font-family:var(--display);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.98rem;display:inline-block;padding:6px 10px;margin-bottom:18px}
-.vs.soft .tag{background:var(--blue);color:var(--white)}
-.vs.hard .tag{background:var(--gold);color:var(--black)}
-.vs h3{font-size:clamp(2rem,4vw,3rem);margin-bottom:14px}
-.vs p{color:#d3d7dc;max-width:46ch}
-.vs ul{list-style:none;padding:0;margin:20px 0 0;display:grid;gap:9px}
-.vs li{display:flex;gap:.75em;align-items:center;font-weight:600;color:var(--white)}
-.vs li .drop{font-size:.95rem}
-.vs.hard li .drop{background:var(--gold)}
-.vs-note{margin-top:22px;color:var(--muted-on-dark);max-width:70ch}
-@media (max-width:820px){.versus{grid-template-columns:1fr}.vs + .vs{border-left:0;border-top:1px solid var(--rule)}}
-
-/* Gallery */
-.gallery{display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:clamp(170px,22vw,260px);gap:10px}
-.g{position:relative;border:0;padding:0;margin:0;background:#1a1c1f;cursor:zoom-in;overflow:hidden;display:block;min-width:0}
-.g img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
-.g:hover img{transform:scale(1.04)}
-.g.feature{grid-column:span 2;grid-row:span 2}
-.g.tall{grid-row:span 2}
-.g .badge{position:absolute;left:0;top:18px;background:var(--red);color:var(--white);font-family:var(--display);font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-size:1rem;padding:7px 14px 7px 12px}
-.g .cap{position:absolute;left:0;right:0;bottom:0;padding:34px 14px 12px;background:linear-gradient(0deg,rgba(0,0,0,.78),rgba(0,0,0,0));color:var(--white);font-family:var(--display);font-weight:600;text-transform:uppercase;letter-spacing:.08em;font-size:1rem;text-align:left}
-@media (max-width:760px){
-  .gallery{grid-template-columns:1fr 1fr}
-  .g.feature{grid-column:span 2}
-}
-
-/* Commercial */
-.com-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
-.com-grid .g{aspect-ratio:4/3}
-.com-grid .g.wide{grid-column:span 2;aspect-ratio:auto}
-.com-text{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(28px,5vw,72px);align-items:start;margin-bottom:clamp(32px,5vw,56px)}
-.com-list{list-style:none;margin:0;padding:0;display:grid;gap:0;border-top:1px solid var(--rule)}
-.com-list li{display:flex;gap:.8em;align-items:center;padding:15px 0;border-bottom:1px solid var(--rule);font-family:var(--display);font-weight:600;text-transform:uppercase;letter-spacing:.07em;font-size:1.3rem}
-.com-list .drop{font-size:1rem}
-.fine{font-size:.92rem;color:var(--muted-on-dark);margin-top:18px;max-width:80ch}
-@media (max-width:860px){.com-text{grid-template-columns:1fr}.com-grid{grid-template-columns:1fr 1fr}.com-grid .g.wide{grid-column:span 2;aspect-ratio:16/9}}
-
-/* Process */
-.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;counter-reset:s;border-top:3px solid var(--text)}
-.step{padding:26px 24px 8px 0;position:relative;min-width:0}
-.step + .step{padding-left:24px;border-left:1px solid #c9cdd2}
-.step .n{font-family:var(--display);font-weight:800;font-size:4.2rem;line-height:.9;color:var(--red)}
-.step h3{font-size:1.7rem;margin:10px 0 8px}
-.step p{color:var(--muted);font-size:1.02rem}
-@media (max-width:860px){
-  .steps{grid-template-columns:1fr 1fr}
-  .step{padding:24px 18px 14px 0}
-  .step + .step{padding-left:0;border-left:0}
-  .step:nth-child(even){padding-left:18px;border-left:1px solid #c9cdd2}
-  .step:nth-child(n+3){border-top:1px solid #c9cdd2}
-}
-@media (max-width:520px){
-  .steps{grid-template-columns:1fr}
-  .step:nth-child(even){padding-left:0;border-left:0}
-  .step + .step{border-top:1px solid #c9cdd2}
-}
-
-/* About */
-.about{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,6vw,84px);align-items:center}
-.about .card{border:1px solid var(--rule);background:#000}
-.about .card img{width:100%;height:auto;aspect-ratio:960/573;object-fit:cover}
-.about h2{margin-bottom:20px}
-.about p + p{margin-top:16px}
-.about p{color:#d3d7dc;max-width:56ch}
-.sig{margin-top:26px;font-family:var(--display);font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:1.3rem;color:var(--white)}
-.sig small{display:block;color:var(--gold);font-size:1rem;letter-spacing:.14em;font-weight:600}
-@media (max-width:860px){.about{grid-template-columns:1fr}}
-
-/* Reviews */
-.rev-top{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:34px}
-.rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.rev{border:2px dashed #a9aeb5;padding:26px 24px;min-height:190px;display:flex;flex-direction:column;justify-content:space-between;gap:20px;background:var(--white)}
-.rev q{quotes:none;font-size:1.08rem;color:var(--muted);font-style:italic}
-.rev .who{font-family:var(--display);font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:1rem;color:var(--text)}
-.rev-note{margin-top:22px;color:var(--muted)}
-.rev-note a{color:var(--red);font-weight:700}
-@media (max-width:860px){.rev-grid{grid-template-columns:1fr}}
-
-/* Area */
-.area{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,6vw,84px);align-items:center}
-.area .big{font-family:var(--display);font-weight:800;text-transform:uppercase;line-height:.92;font-size:clamp(3rem,9vw,6.4rem);letter-spacing:.005em}
-.area .big span{color:var(--gold);display:block}
-.area ul{list-style:none;margin:22px 0 0;padding:0;display:grid;gap:12px}
-.area li{display:flex;gap:.8em;align-items:center;font-family:var(--display);font-weight:600;text-transform:uppercase;letter-spacing:.08em;font-size:1.4rem}
-@media (max-width:860px){.area{grid-template-columns:1fr}}
-
-/* Booking */
-.book-wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(28px,5vw,72px);align-items:start}
-.book-side h2{margin-bottom:18px}
-.talk{margin-top:28px;padding:24px;background:var(--black);color:var(--white);border-bottom:4px solid var(--gold)}
-.talk small{display:block;font-family:var(--display);text-transform:uppercase;letter-spacing:.14em;font-weight:600;color:var(--gold);font-size:1rem}
-.talk a{display:block;font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,5vw,3rem);line-height:1.1;text-decoration:none;margin-top:4px}
-.talk a:hover{color:var(--gold)}
-.talk span{display:block;margin-top:6px;color:var(--muted-on-dark);font-size:.98rem}
-form.quote{background:var(--white);border:1px solid #c9cdd2;border-top:6px solid var(--red);padding:clamp(22px,3.4vw,40px)}
-.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-.field{display:flex;flex-direction:column;gap:6px;min-width:0}
-.field.full{grid-column:1 / -1}
-label,legend{font-family:var(--display);font-weight:700;text-transform:uppercase;letter-spacing:.09em;font-size:1rem;color:var(--text)}
-legend{padding:0;margin-bottom:10px}
-input[type=text],input[type=tel],input[type=email],input[type=date],select,textarea{width:100%;font:inherit;font-size:1.05rem;color:var(--text);background:#f5f6f7;border:1.5px solid #aeb3ba;border-radius:2px;padding:13px 14px;min-height:50px;color-scheme:light}
-textarea{min-height:120px;resize:vertical}
-input:focus,select:focus,textarea:focus{outline:3px solid var(--gold);outline-offset:0;border-color:var(--text);background:var(--white)}
-fieldset{border:0;margin:0;padding:0;min-width:0}
-.checks{display:grid;grid-template-columns:1fr 1fr;gap:4px 18px}
-.check{display:flex;align-items:center;gap:10px;font-family:var(--body);text-transform:none;letter-spacing:0;font-weight:600;font-size:1.02rem;padding:8px 0;cursor:pointer;color:var(--text)}
-.check input{width:22px;height:22px;accent-color:var(--red);flex:none;margin:0}
-.hint{font-size:.92rem;color:var(--muted)}
-.submit{margin-top:24px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
-.submit .btn{font-size:1.3rem;padding:19px 34px}
-.thanks{display:none;background:var(--blue);color:var(--white);padding:18px 22px;margin-bottom:22px;font-weight:600}
-.thanks:target{display:block}
+:focus-visible{outline:2px solid var(--text);outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding-left:var(--gl);padding-right:var(--gr)}
+.sec{padding-block:clamp(72px,10vw,128px)}
+.alt{background:var(--bg2)}
+h2{font-size:clamp(2rem,4.4vw,3rem)}
+.sub{color:var(--muted);margin-top:14px;max-width:52ch}
+.head{margin-bottom:clamp(36px,5vw,56px)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;font-family:var(--display);font-weight:600;text-transform:uppercase;letter-spacing:.1em;font-size:1.05rem;text-decoration:none;border:1px solid transparent;border-radius:3px;cursor:pointer;transition:background .2s,border-color .2s,color .2s}
+.btn-m{background:var(--m);color:#fff}.btn-m:hover{background:var(--mh)}
+.btn-o{border-color:rgba(237,237,237,.35);color:var(--text)}.btn-o:hover{border-color:var(--text)}
+/* header */
+.hdr{position:sticky;top:0;z-index:50;background:rgba(14,15,17,.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.hdr .wrap{display:flex;align-items:center;gap:16px;min-height:64px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:0}
+.brand img{width:36px;height:36px;border-radius:50%}
+.brand b{font-family:var(--display);font-weight:600;text-transform:uppercase;letter-spacing:.12em;font-size:1.05rem;white-space:nowrap}
+.nav{margin-left:auto;display:flex;gap:28px;align-items:center}
+.nav a{text-decoration:none;color:var(--muted);font-size:.95rem;letter-spacing:.04em}
+.nav a:hover{color:var(--text)}
+.hdr .btn{min-height:44px;padding:0 18px;font-size:.95rem}
+/* hero */
+.hero{position:relative;min-height:min(86vh,760px);display:flex;align-items:flex-end;isolation:isolate;overflow:hidden}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,var(--bg) 0%,rgba(14,15,17,.72) 45%,rgba(14,15,17,.45) 100%)}
+.hero .wrap{width:100%;padding-block:120px 72px}
+.hero h1{font-size:clamp(2.8rem,7vw,5.4rem);max-width:14ch;line-height:.95}
+.hero p{color:#c9cbcf;font-size:clamp(1.05rem,1.6vw,1.25rem);margin-top:18px;max-width:44ch}
+.cta{display:flex;gap:12px;margin-top:32px;flex-wrap:wrap}
+.quiet{margin-top:28px;color:var(--muted);font-size:.9rem;letter-spacing:.06em}
+/* services */
+.svc{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);column-gap:48px}
+.svc li{padding:18px 0;border-top:1px solid var(--line);font-family:var(--display);font-size:1.35rem;letter-spacing:.06em;text-transform:uppercase;font-weight:500}
+/* gallery */
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.gal figure{margin:0;aspect-ratio:4/5;overflow:hidden;border-radius:3px;background:var(--bg2)}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+.gal figure:hover img{transform:scale(1.03)}
+/* reviews */
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:48px}
+.rev{margin:0}
+.rev q{quotes:none;display:block;font-size:1.12rem;line-height:1.65;color:var(--text)}
+.rev figcaption{margin-top:18px;color:var(--muted);font-size:.9rem;letter-spacing:.08em;text-transform:uppercase}
+/* form */
+.book{display:grid;grid-template-columns:1fr 1.4fr;gap:clamp(36px,6vw,96px);align-items:start}
+.book .tel{display:inline-block;margin-top:28px;font-family:var(--display);font-size:1.8rem;letter-spacing:.04em;text-decoration:none}
+.fg{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px}
+.f{display:flex;flex-direction:column;gap:8px;min-width:0}.f.full{grid-column:1/-1}
+label{font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+input,select,textarea{width:100%;font:inherit;font-size:1rem;color:var(--text);background:#1b1e22;border:1px solid #2c3036;border-radius:3px;padding:12px 14px;min-height:48px}
+textarea{min-height:110px;resize:vertical}
+select{appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--muted) 50%),linear-gradient(135deg,var(--muted) 50%,transparent 50%);background-position:calc(100% - 20px) 21px,calc(100% - 15px) 21px;background-size:5px 5px;background-repeat:no-repeat;padding-right:38px}
+input:focus,select:focus,textarea:focus{outline:none;border-color:#6b7078}
+input[type=date]::-webkit-calendar-picker-indicator{filter:invert(.7)}
+.send{margin-top:24px}.send .btn{min-width:220px}
+.thanks{display:none;margin-bottom:20px;color:var(--text);border-left:2px solid var(--m);padding-left:14px}.thanks:target{display:block}
 .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
-@media (max-width:900px){.book-wrap{grid-template-columns:1fr}}
-@media (max-width:560px){.fgrid,.checks{grid-template-columns:1fr}}
-
-/* FAQ */
-.faq{max-width:900px}
-.faq details{border-bottom:1px solid var(--rule)}
-.faq details:first-of-type{border-top:1px solid var(--rule)}
-.faq summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:22px 0;font-family:var(--display);font-weight:700;text-transform:uppercase;letter-spacing:.04em;font-size:clamp(1.35rem,2.6vw,1.75rem);line-height:1.1}
+/* faq */
+.faq{max-width:760px}
+.faq details{border-top:1px solid var(--line)}.faq details:last-child{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:60px;padding:14px 0;font-size:1.08rem;font-weight:500}
 .faq summary::-webkit-details-marker{display:none}
-.faq summary::after{content:"+";font-size:2rem;font-weight:500;color:var(--gold);flex:none;line-height:1;transition:transform .2s}
+.faq summary::after{content:"+";color:var(--muted);font-size:1.4rem;transition:transform .2s}
 .faq details[open] summary::after{transform:rotate(45deg)}
-.faq details p{padding:0 0 24px;color:#d3d7dc;max-width:70ch}
-
-/* Footer */
-footer{background:var(--black);color:var(--white);border-top:4px solid var(--red);padding-block:56px 40px}
-.foot{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:36px}
-.foot .brand img{width:64px;height:64px}
-.foot h4{font-size:1.15rem;letter-spacing:.14em;color:var(--gold);margin-bottom:14px}
-.foot p,.foot a{color:var(--muted-on-dark);text-decoration:none;display:block;margin-bottom:6px}
-.foot a:hover{color:var(--white)}
-.foot .ph{font-family:var(--display);font-size:1.7rem;font-weight:700;color:var(--white);letter-spacing:.03em}
-.copy a{color:var(--white);text-decoration:underline}
-.copy{margin-top:40px;padding-top:22px;border-top:1px solid var(--rule);color:var(--muted-on-dark);font-size:.94rem;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-@media (max-width:760px){.foot{grid-template-columns:1fr}}
-
-/* Mobile action bar */
+.faq details p{color:var(--muted);padding:0 0 22px;max-width:62ch}
+/* footer */
+footer{background:var(--bg2);padding-block:56px 36px;color:var(--muted);font-size:.95rem}
+.ft{display:flex;justify-content:space-between;gap:28px;flex-wrap:wrap}
+.ft a{text-decoration:none}.ft a:hover{color:var(--text)}
+.ft .big{display:block;color:var(--text);font-family:var(--display);font-size:1.5rem;letter-spacing:.04em;margin-bottom:6px}
+.copy{margin-top:40px;font-size:.85rem;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.copy a{color:var(--text)}
+/* mobile bar */
 .mbar{display:none}
-@media (max-width:800px){
-  .mbar{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:55;background:var(--black);border-top:3px solid var(--red);padding:10px var(--gutter-r) calc(10px + env(safe-area-inset-bottom,0px)) var(--gutter-l)}
-  .mbar .btn{padding:15px 10px;font-size:1.2rem}
-  body{padding-bottom:calc(76px + env(safe-area-inset-bottom,0px))}
+/* reveal */
+.rv{opacity:0;transform:translateY(14px);transition:opacity .7s ease,transform .7s ease}.rv.in{opacity:1;transform:none}
+@media (max-width:860px){
+  .nav a{display:none}
+  .svc{grid-template-columns:1fr 1fr;column-gap:24px}
+  .revs,.gal{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;margin-right:calc(-1*var(--gr));padding-right:var(--gr);scrollbar-width:none}
+  .revs::-webkit-scrollbar,.gal::-webkit-scrollbar{display:none}
+  .gal figure{flex:0 0 74%;scroll-snap-align:start}
+  .rev{flex:0 0 84%;scroll-snap-align:start}
+  .book{grid-template-columns:1fr}
+  .mbar{display:grid;grid-template-columns:1.5fr 1fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:55;background:rgba(14,15,17,.96);border-top:1px solid var(--line);padding:10px var(--gr) calc(10px + env(safe-area-inset-bottom,0px)) var(--gl)}
+  body{padding-bottom:calc(70px + env(safe-area-inset-bottom,0px))}
 }
+@media (max-width:560px){
+  .sec{padding-block:64px}
+  .hdr .btn{display:none}
+  .brand b{font-size:.95rem}
+  .hero{min-height:72vh}
+  .hero .wrap{padding-block:96px 48px}
+  .hero h1{font-size:2.6rem}
+  .cta .btn{flex:1;padding:0 12px}
+  .svc li{font-size:1.1rem;padding:14px 0}
+  .fg{gap:14px}
 
-/* Lightbox */
-.lb{position:fixed;inset:0;z-index:100;background:rgba(0,0,0,.94);display:none;align-items:center;justify-content:center;padding:max(16px,env(safe-area-inset-top,0px)) var(--gutter-r) max(16px,env(safe-area-inset-bottom,0px)) var(--gutter-l)}
-.lb.on{display:flex}
-.lb figure{margin:0;max-width:min(1200px,100%);max-height:100%;display:flex;flex-direction:column;gap:12px;align-items:center}
-.lb img{max-width:100%;max-height:calc(100vh - 150px);object-fit:contain;background:#111}
-.lb figcaption{color:var(--white);font-family:var(--display);letter-spacing:.09em;text-transform:uppercase;font-weight:600;font-size:1.05rem;text-align:center}
-.lb button{position:absolute;background:var(--black);color:var(--white);border:2px solid var(--white);font-family:var(--display);font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:1.05rem;padding:11px 16px;cursor:pointer;border-radius:2px}
-.lb button:hover{background:var(--white);color:var(--black)}
-.lb .x{top:max(14px,env(safe-area-inset-top,0px));right:var(--gutter-r)}
-.lb .pv{left:var(--gutter-l);top:50%;transform:translateY(-50%)}
-.lb .nx{right:var(--gutter-r);top:50%;transform:translateY(-50%)}
-@media (max-width:600px){.lb .pv,.lb .nx{top:auto;bottom:max(14px,env(safe-area-inset-bottom,0px));transform:none}}
-
-/* Intro whoosh */
-.intro{position:fixed;inset:0;z-index:200;background:radial-gradient(120% 90% at 50% 50%,#0d1720 0%,#000 70%);display:grid;place-items:center;overflow:hidden;animation:introOut .45s ease 1.7s forwards}
-.intro-name{position:relative;z-index:3;font-family:var(--display);font-weight:800;text-transform:uppercase;color:var(--white);font-size:clamp(3.2rem,13vw,8.4rem);letter-spacing:.03em;line-height:.92;text-align:center;padding:0 12px;text-shadow:0 0 30px rgba(46,134,200,.55);clip-path:inset(-20% 100% -20% 0);animation:nameIn 1.1s cubic-bezier(.45,.1,.55,.9) .3s forwards}
-.intro-name i{font-style:normal;color:var(--gold)}
-.intro-sub{display:block;margin-top:18px;font-size:clamp(1rem,3.4vw,1.6rem);letter-spacing:.34em;color:#7cc0ee;font-weight:700}
+  .send .btn{width:100%}
+  .ft{flex-direction:column;gap:18px}
+}
+/* intro */
+.intro{position:fixed;inset:0;z-index:200;background:radial-gradient(120% 90% at 50% 50%,#0d1720 0%,#000 70%);display:grid;place-items:center;overflow:hidden;animation:introOut .45s ease 1.75s forwards}
+.intro-name{position:relative;z-index:3;font-family:var(--display);font-weight:800;text-transform:uppercase;color:#fff;font-size:clamp(3.2rem,13vw,8.4rem);letter-spacing:.03em;line-height:.92;text-align:center;padding:0 12px;text-shadow:0 0 30px rgba(46,134,200,.55);clip-path:inset(-20% 100% -20% 0);animation:nameIn 1.1s cubic-bezier(.45,.1,.55,.9) .3s forwards}
+.intro-sub{display:block;margin-top:18px;font-size:clamp(1rem,3.4vw,1.6rem);letter-spacing:.34em;color:#7cc0ee;font-weight:600}
 .spray,.imist,.streak{position:absolute;top:-20%;bottom:-20%;left:0;pointer-events:none;will-change:transform}
 .spray{z-index:2;width:110vw;transform:translateX(-120vw) skewX(-16deg);background:linear-gradient(90deg,rgba(46,134,200,0) 0%,rgba(46,134,200,.35) 30%,rgba(46,134,200,.85) 62%,#bfe2f8 84%,#fff 94%,rgba(255,255,255,0) 100%);filter:blur(4px);animation:sweep 1.6s cubic-bezier(.45,.1,.55,.9) .1s forwards}
-.imist{z-index:4;width:70vw;opacity:.95;transform:translateX(-90vw);background:
- radial-gradient(circle,#fff 0 2px,transparent 3px) 0 0/38px 46px,
- radial-gradient(circle,rgba(255,255,255,.9) 0 1.5px,transparent 2.5px) 17px 21px/29px 33px,
- radial-gradient(circle,#2E86C8 0 2.5px,transparent 3.5px) 9px 30px/53px 61px,
- radial-gradient(circle,rgba(46,134,200,.8) 0 1.5px,transparent 2.5px) 31px 7px/23px 27px;
- -webkit-mask:linear-gradient(90deg,transparent,#000 40%,#000 75%,transparent);mask:linear-gradient(90deg,transparent,#000 40%,#000 75%,transparent);animation:sweepMist 1.65s cubic-bezier(.45,.1,.55,.9) .12s forwards}
+.imist{z-index:4;width:70vw;opacity:.95;transform:translateX(-90vw);background:radial-gradient(circle,#fff 0 2px,transparent 3px) 0 0/38px 46px,radial-gradient(circle,rgba(255,255,255,.9) 0 1.5px,transparent 2.5px) 17px 21px/29px 33px,radial-gradient(circle,#2E86C8 0 2.5px,transparent 3.5px) 9px 30px/53px 61px,radial-gradient(circle,rgba(46,134,200,.8) 0 1.5px,transparent 2.5px) 31px 7px/23px 27px;-webkit-mask:linear-gradient(90deg,transparent,#000 40%,#000 75%,transparent);mask:linear-gradient(90deg,transparent,#000 40%,#000 75%,transparent);animation:sweepMist 1.65s cubic-bezier(.45,.1,.55,.9) .12s forwards}
 .streak{z-index:4;top:0;bottom:0;width:100vw;transform:translateX(-110vw);background:repeating-linear-gradient(-8deg,transparent 0 14px,rgba(255,255,255,.55) 14px 16px,transparent 16px 34px,rgba(46,134,200,.6) 34px 37px,transparent 37px 60px);-webkit-mask:linear-gradient(90deg,transparent,#000 60%,transparent);mask:linear-gradient(90deg,transparent,#000 60%,transparent);animation:sweep2 1.55s cubic-bezier(.45,.1,.55,.9) .14s forwards}
 @keyframes nameIn{to{clip-path:inset(-20% 0 -20% 0)}}
 @keyframes sweep{to{transform:translateX(130vw) skewX(-16deg)}}
@@ -388,575 +202,167 @@ footer{background:var(--black);color:var(--white);border-top:4px solid var(--red
 @keyframes sweep2{to{transform:translateX(130vw)}}
 @keyframes introOut{to{opacity:0;visibility:hidden}}
 html.seen .intro{display:none}
-
-.hero-in{animation:rise .7s cubic-bezier(.2,.7,.2,1) both;animation-delay:1.9s}
-.hero-in.d2{animation-delay:2s}.hero-in.d3{animation-delay:2.1s}.hero-in.d4{animation-delay:2.2s}
-html.seen .hero-in{animation-delay:0s}
-html.seen .hero-in.d2{animation-delay:.08s}html.seen .hero-in.d3{animation-delay:.16s}html.seen .hero-in.d4{animation-delay:.24s}
-@keyframes rise{from{opacity:.0;transform:translateY(18px)}to{opacity:1;transform:none}}
-
-/* Scroll reveal: starts visible enough to read, eases into place */
-.rv{opacity:.4;transform:translateY(16px);transition:opacity .5s ease,transform .5s ease}
-.rv.in{opacity:1;transform:none}
-
-
-/* Quote CTAs */
-.qcta{margin-top:24px;display:flex;align-items:center;justify-content:space-between;gap:14px 24px;flex-wrap:wrap;padding:18px 22px;background:var(--black);color:var(--white);border-left:6px solid var(--red)}
-.qcta p{font-family:var(--display);font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:1.3rem}
-
-/* ===== Compact mobile ===== */
-@media (max-width:768px){
-  body{font-size:1rem;line-height:1.5}
-  .band{padding-block:34px}
-  h2{font-size:1.85rem}
-  .lead{font-size:1rem;margin-top:10px}
-  .sec-head{margin-bottom:18px}
-  .eyebrow{font-size:.85rem;margin-bottom:8px}
-  .btn{font-size:1.05rem;padding:14px 18px;min-height:48px}
-  .hdr{min-height:60px}
-  .hero .wrap{padding-block:34px 30px}
-  .hero h1{font-size:2.35rem;max-width:none}
-  .hero p.sub{font-size:1rem;margin-top:12px}
-  .hero .cta{margin-top:18px;gap:10px}.hero .cta .btn{flex:1}
-  .hero .meta{display:none}
-  .trust ul,.trust li:nth-child(n){grid-template-columns:1fr 1fr}
-  .trust ul{grid-template-columns:1fr 1fr}
-  .trust li,.trust li:nth-child(n){padding:10px 6px 10px 0;font-size:.88rem;gap:8px;border-top:0;border-left:0}
-  /* services: compact 2 col */
-  .svc-grid{grid-template-columns:1fr 1fr}
-  .svc{padding:12px 10px}
-  .svc h3{font-size:1.08rem;margin-bottom:4px;gap:.4em}
-  .svc p{font-size:.84rem;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-  .svc-cta{padding:16px}.svc-cta h3{font-size:1.3rem}.svc-cta p{display:none}
-  .qcta{padding:14px 16px;margin-top:16px}.qcta p{font-size:1.05rem}.qcta .btn{width:100%}
-  /* soft vs pressure */
-  .versus{grid-template-columns:1fr 1fr}
-  .vs{padding:14px 12px}.vs + .vs{border-left:1px solid var(--rule);border-top:0}
-  .vs .tag{font-size:.75rem;margin-bottom:8px;padding:4px 7px}
-  .vs h3{font-size:1.4rem;margin-bottom:6px}
-  .vs p,.vs-note{display:none}
-  .vs ul{margin-top:6px;gap:4px}.vs li{font-size:.9rem}
-  #methods .lead{display:none}
-  /* carousels */
-  .gallery,.com-grid,.rev-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:10px;margin-right:calc(-1 * var(--gutter-r));padding-right:var(--gutter-r);padding-bottom:6px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
-  .gallery::-webkit-scrollbar,.com-grid::-webkit-scrollbar,.rev-grid::-webkit-scrollbar{display:none}
-  .gallery .g,.com-grid .g,.com-grid .g.wide{flex:0 0 78%;height:220px;aspect-ratio:auto;scroll-snap-align:start}
-  .com-grid .g,.com-grid .g.wide{height:160px;flex-basis:62%}
-  .rev-grid .rev{flex:0 0 85%;scroll-snap-align:start;min-height:0;padding:16px;gap:10px}
-  .rev q{font-size:.95rem}
-  .g .badge{top:10px;font-size:.8rem}.g .cap{font-size:.85rem;padding:24px 10px 8px}
-  /* commercial */
-  .com-text{margin-bottom:16px;gap:0}.com-list{display:none}
-  /* steps: compact row */
-  .steps,.steps .step{grid-template-columns:repeat(4,1fr)}
-  .steps{grid-template-columns:repeat(4,1fr)}
-  .step,.step + .step,.step:nth-child(n){padding:10px 4px;border:0;border-left:1px solid #c9cdd2;text-align:center}
-  .step:first-child{border-left:0}
-  .step .n{font-size:2rem}.step h3{font-size:.9rem;margin:4px 0 0}.step p{display:none}
-  /* about */
-  .about{gap:0}.about .card{display:none}.about p + p{display:none}.about h2{margin-bottom:8px}
-  .about p{margin-top:0!important}.sig{margin-top:12px;font-size:1.1rem}
-  /* reviews */
-  .rev-top{margin-bottom:12px}.rev-top .btn{display:none}
-  #reviews .lead{margin-bottom:14px!important}.rev-note{margin-top:10px;font-size:.9rem}
-  /* area */
-  .area{gap:10px}.area .big{font-size:2.4rem}.area ul{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:10px}.area li{font-size:1rem}
-  .area p[style]{margin-top:10px!important;font-size:.92rem}
-  /* booking */
-  .book-wrap{gap:16px;grid-template-columns:minmax(0,1fr)}
-  .book-side .lead{display:none}.book-side h2{margin-bottom:6px}
-  .talk{margin-top:10px;padding:12px 14px}.talk a{font-size:1.5rem}.talk span{display:none}
-  form.quote{padding:16px 14px}
-  .fgrid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px}
-  .fgrid input,.fgrid select{min-width:0;max-width:100%}
-  label,legend{font-size:.85rem}
-  input[type=text],input[type=tel],input[type=email],input[type=date],select,textarea{padding:10px;min-height:46px;font-size:1rem}
-  textarea{min-height:76px}
-  .checks{grid-template-columns:1fr 1fr;gap:0 10px}
-  .check{font-size:.9rem;padding:0;min-height:44px}
-  .submit{margin-top:14px}.submit .btn{width:100%;font-size:1.15rem;padding:15px}.hint{font-size:.82rem}
-  /* faq */
-  .faq summary{padding:12px 0;font-size:1.05rem;min-height:44px}
-  .faq details p{padding-bottom:14px;font-size:.95rem}
-  /* footer */
-  footer{padding-block:28px 20px}.foot{gap:16px;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.foot a,.foot p{overflow-wrap:anywhere}.foot > :first-child{grid-column:1/-1}
-  .foot p{font-size:.9rem}.foot .ph{font-size:1.3rem}.copy{margin-top:16px;font-size:.8rem}
-  .hdr{gap:8px}
-  .hdr .btn{display:inline-flex;margin-left:auto;font-size:.95rem;padding:10px 12px;min-height:44px}
-  .menu-btn{margin-left:0;min-height:44px;order:3}
-  .mbar{grid-template-columns:1.6fr 1fr;padding-top:8px;padding-bottom:calc(8px + env(safe-area-inset-bottom,0px))}
-  .mbar .btn{padding:13px 8px;font-size:1.08rem}
-}
-
-@media (max-width:430px){.brand b{display:none}}
-@media (prefers-reduced-motion:reduce){
-  html{scroll-behavior:auto}
-  .intro{display:none}
-  .hero-in,.rv{animation:none!important;transition:none!important;opacity:1;transform:none}
-  .g img{transition:none}
-}
+.hero-in{animation:rise .8s cubic-bezier(.2,.7,.2,1) both;animation-delay:1.95s}
+.hero-in.d2{animation-delay:2.05s}.hero-in.d3{animation-delay:2.15s}
+html.seen .hero-in{animation-delay:0s}html.seen .hero-in.d2{animation-delay:.08s}html.seen .hero-in.d3{animation-delay:.16s}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.intro{display:none}.hero-in,.rv{animation:none!important;transition:none!important;opacity:1;transform:none}}
 </style>
 </head>
 <body>
 <script>
-(function(){
-  var d=document.documentElement;
-  try{
-    var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if(reduce||sessionStorage.getItem('pwsIntro')){d.classList.add('seen');}
-    else{sessionStorage.setItem('pwsIntro','1');}
-  }catch(e){}
-})();
+(function(){var d=document.documentElement;try{var r=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;if(r||sessionStorage.getItem('pwsIntro')){d.classList.add('seen');}else{sessionStorage.setItem('pwsIntro','1');}}catch(e){}})();
 </script>
+<div class="intro" aria-hidden="true"><div class="spray"></div><div class="streak"></div><div class="imist"></div><div class="intro-name">Powers Washing<span class="intro-sub">McAlester, Oklahoma</span></div></div>
 
-<div class="intro" aria-hidden="true">
-  <div class="spray"></div><div class="streak"></div><div class="imist"></div>
-  <div class="intro-name">Powers <i>Washing</i> Services<span class="intro-sub">McAlester, Oklahoma</span></div>
-</div>
-
-<header class="site-header">
-  <div class="wrap hdr">
-    <a class="brand" href="#top" aria-label="Powers Washing Services, home">
-      <img src="photos/logo.jpg" width="48" height="48" alt="Powers Washing Services PWS logo, a red and gold water droplet" loading="eager">
-      <b>Powers <i>Washing</i> Services</b>
-    </a>
-    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
-    <nav class="nav" id="nav" aria-label="Main">
-      <a href="#services">Services</a>
-      <a href="#work">Our Work</a>
-      <a href="#commercial">Commercial</a>
-      <a href="#about">About</a>
-      <a href="#reviews">Reviews</a>
-      <a href="#faq">FAQ</a>
-      <a class="nav-call" href="tel:+19184241283">Call 918-424-1283</a>
+<header class="hdr">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Powers Washing Services, home"><img src="photos/logo.jpg" width="36" height="36" alt="Powers Washing Services logo"><b>Powers Washing</b></a>
+    <nav class="nav" aria-label="Main">
+      <a href="#services">Services</a><a href="#work">Work</a><a href="#reviews">Reviews</a><a href="tel:+19184241283">918-424-1283</a>
+      <a class="btn btn-m" href="#book">Get a Free Quote</a>
     </nav>
-    <a class="btn btn-gold btn-sm" href="#book" data-quote>Get a Free Quote</a>
   </div>
 </header>
 
 <main id="top">
-
-<!-- 1. HERO -->
 <section class="hero" aria-labelledby="hero-h">
-  <img class="hero-img" src="photos/concrete-pressure-washing-action.jpg" alt="Surface cleaner pushing a fan of water across dirty concrete, leaving clean slab behind it" fetchpriority="high">
+  <img src="photos/concrete-pressure-washing-action.jpg" alt="Surface cleaner pushing a fan of water across dirty concrete, leaving clean slab behind it" fetchpriority="high">
   <div class="wrap">
-    <div class="eyebrow hero-in"><span class="drop gold"></span>McAlester, OK &middot; Southeast Oklahoma</div>
-    <h1 id="hero-h" class="hero-in d2">Restore the <em>curb appeal</em> of your Southeast Oklahoma property</h1>
-    <p class="sub hero-in d3">Pressure washing and soft washing for homes, storefronts and commercial properties. Locally owned, honest work, and a quote before anything starts.</p>
-    <div class="cta hero-in d4">
-      <a class="btn btn-red" href="#book" data-quote>Get a Free Quote</a>
-      <a class="btn btn-line" href="tel:+19184241283">Call Now</a>
-    </div>
-    <div class="meta hero-in d4"><span><i class="drop"></i>Call 918-424-1283</span><span><i class="drop"></i>Residential &amp; Commercial</span></div>
+    <h1 id="hero-h" class="hero-in">Exterior cleaning, done right.</h1>
+    <p class="hero-in d2">Pressure and soft washing for homes and businesses in McAlester and Southeast Oklahoma.</p>
+    <div class="cta hero-in d3"><a class="btn btn-m" href="#book">Get a Free Quote</a><a class="btn btn-o" href="tel:+19184241283">Call 918-424-1283</a></div>
+    <p class="quiet hero-in d3">Owner-operated by Connor Powers &middot; 100% recommended on Facebook</p>
   </div>
 </section>
 
-<!-- 2. TRUST STRIP -->
-<section class="trust" aria-label="Why customers choose us">
+<section class="sec" id="services" aria-labelledby="svc-h">
   <div class="wrap">
-    <ul>
-      <li><span class="drop"></span>Locally owned and operated</li>
-      <li><span class="drop"></span>Residential and commercial</li>
-      <li><span class="drop"></span>Southeast Oklahoma</li>
-      <li><span class="drop"></span>100% recommended on Facebook (16 reviews)</li>
+    <div class="head rv"><h2 id="svc-h">Services</h2><p class="sub">Residential and commercial, every job quoted individually.</p></div>
+    <ul class="svc rv">
+      <li>House washing</li>
+      <li>Soft washing</li>
+      <li>Roof wash</li>
+      <li>Vinyl siding</li>
+      <li>Brick</li>
+      <li>Gutters</li>
+      <li>Fencing</li>
+      <li>Concrete</li>
+      <li>Patios</li>
+      <li>Stain and sealing</li>
+      <li>Equipment</li>
+      <li>Commercial</li>
     </ul>
   </div>
 </section>
 
-<!-- 11. BOOK -->
-<section class="band mist" id="book" aria-labelledby="book-h">
-  <div class="wrap book-wrap">
-    <div class="book-side rv">
-      <div class="eyebrow"><span class="drop"></span>Book online</div>
-      <h2 id="book-h">Request your free quote</h2>
-      <p class="lead muted">Tell us about the job and when you would like us out. We will get back to you with a quote.</p>
-      <div class="talk">
-        <small>Prefer to talk?</small>
-        <a href="tel:+19184241283">Call 918-424-1283</a>
-        <span>Or email powerswashingservices@yahoo.com</span>
-      </div>
+<section class="sec alt" id="work" aria-labelledby="work-h">
+  <div class="wrap">
+    <div class="head rv"><h2 id="work-h">Recent work</h2></div>
+    <div class="gal rv">
+      <figure><img src="photos/sidewalk-siding-cleaned-stripe.jpg" alt="Sidewalk and siding with a clean stripe beside untouched dirty surface, showing the before and after" loading="lazy"></figure>
+      <figure><img src="photos/wingstop-storefront-1.jpg" alt="Restaurant storefront exterior after cleaning" loading="lazy"></figure>
+      <figure><img src="photos/house-exterior-carport.jpg" alt="House exterior and carport after washing" loading="lazy"></figure>
+      <figure><img src="photos/white-vinyl-fence-1.jpg" alt="White vinyl fence cleaned of dirt and green growth" loading="lazy"></figure>
+      <figure><img src="photos/school-entrance-steps.jpg" alt="School entrance steps after pressure washing" loading="lazy"></figure>
+      <figure><img src="photos/concrete-sidewalk-clean-vertical.jpg" alt="Freshly cleaned concrete sidewalk" loading="lazy"></figure>
     </div>
+  </div>
+</section>
 
-    <form class="quote rv" id="quoteForm" action="https://formsubmit.co/powerswashingservices@yahoo.com" method="POST">
+<section class="sec" id="reviews" aria-labelledby="rev-h">
+  <div class="wrap">
+    <div class="head rv"><h2 id="rev-h">What customers say</h2></div>
+    <div class="revs rv">
+      <figure class="rev"><q>Connor did a great job cleaning the black streaks off my roof. He was professional, knowledgeable, and easy to work with. I’ll definitely call Powers Washing Services if I need anything in the future.</q><figcaption>Glen, via Facebook</figcaption></figure>
+      <figure class="rev"><q>Professional from beginning to end. Fair pricing and came out cleaner than I even expected! Best there is around.</q><figcaption>Clint, via Facebook</figcaption></figure>
+      <figure class="rev"><q>I have used this business for cleaning up of the exterior of my investment properties. They did an outstanding job in a timely fashion, and a reasonable rate! Highly recommended!</q><figcaption>Heidi, via Facebook</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="book" aria-labelledby="book-h">
+  <div class="wrap book">
+    <div class="rv">
+      <h2 id="book-h">Request a free quote</h2>
+      <p class="sub">Tell us about the job and we will get back to you.</p>
+      <a class="tel" href="tel:+19184241283">918-424-1283</a>
+    </div>
+    <form class="rv" id="quoteForm" action="https://formsubmit.co/powerswashingservices@yahoo.com" method="POST">
       <div class="thanks" id="thanks" role="status">Thank you. Your request was sent and we will be in touch soon.</div>
       <input type="hidden" name="_subject" value="New quote request - website">
       <input type="hidden" name="_next" id="nextUrl" value="#thanks">
       <input type="hidden" name="_template" value="table">
       <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
-      <div class="fgrid">
-        <div class="field"><label for="f-name">Name</label><input type="text" id="f-name" name="name" autocomplete="name" required></div>
-        <div class="field"><label for="f-phone">Phone</label><input type="tel" id="f-phone" name="phone" autocomplete="tel" inputmode="tel" required></div>
-        <div class="field full"><label for="f-email">Email</label><input type="email" id="f-email" name="email" autocomplete="email" required></div>
-        <div class="field full"><label for="f-addr">Job address</label><input type="text" id="f-addr" name="address" autocomplete="street-address" required></div>
-        <fieldset class="field full">
-          <legend>Services needed</legend>
-          <div class="checks">
-            <label class="check"><input type="checkbox" name="services[]" value="House washing">House washing</label>
-            <label class="check"><input type="checkbox" name="services[]" value="Soft washing">Soft washing</label>
-            <label class="check"><input type="checkbox" name="services[]" value="Roof wash">Roof wash</label>
-            <label class="check"><input type="checkbox" name="services[]" value="Vinyl siding">Vinyl siding</label>
-            <label class="check"><input type="checkbox" name="services[]" value="Brick">Brick</label>
-            <label class="check"><input type="checkbox" name="services[]" value="Gutters">Gutters</label>
-            <label class="check"><input type="checkbox" name="services[]" value="Fencing">Fencing</label>
-            <label class="check"><input type="checkbox" name="services[]" value="Concrete">Concrete</label>
-            <label class="check"><input type="checkbox" name="services[]" value="Sidewalks">Sidewalks</label>
-            <label class="check"><input type="checkbox" name="services[]" value="Patios">Patios</label>
-            <label class="check"><input type="checkbox" name="services[]" value="Stain and sealing">Stain &amp; sealing</label>
-            <label class="check"><input type="checkbox" name="services[]" value="Equipment washing">Equipment washing</label>
-            <label class="check"><input type="checkbox" name="services[]" value="Commercial cleaning">Commercial cleaning</label>
-          </div>
-        </fieldset>
-        <div class="field"><label for="f-date">Preferred date</label><input type="date" id="f-date" name="preferred_date"></div>
-        <div class="field"><label for="f-time">Preferred time window</label>
-          <select id="f-time" name="preferred_time">
-            <option value="Any time">Any time</option>
-            <option value="Morning">Morning</option>
-            <option value="Midday">Midday</option>
-            <option value="Afternoon">Afternoon</option>
-          </select>
-        </div>
-        <div class="field full"><label for="f-details">Job details</label><textarea id="f-details" name="details" placeholder="What would you like cleaned? Approximate size, anything we should know."></textarea></div>
-        <div class="field full"><label for="f-photo">Photos (optional)</label><input type="text" id="f-photo" name="photo_note" placeholder="Example: I can text photos after you reach out"><span class="hint">You can send photos by text to 918-424-1283 or through our Facebook page after you submit.</span></div>
+      <div class="fg">
+        <div class="f half-m"><label for="f-name">Name</label><input type="text" id="f-name" name="name" autocomplete="name" required></div>
+        <div class="f half-m"><label for="f-phone">Phone</label><input type="tel" id="f-phone" name="phone" autocomplete="tel" inputmode="tel" required></div>
+        <div class="f full"><label for="f-email">Email</label><input type="email" id="f-email" name="email" autocomplete="email" required></div>
+        <div class="f full"><label for="f-addr">Job address</label><input type="text" id="f-addr" name="address" autocomplete="street-address" required></div>
+        <div class="f"><label for="f-svc">Service</label>
+          <select id="f-svc" name="service">
+            <option>House washing</option>
+            <option>Soft washing</option>
+            <option>Roof wash</option>
+            <option>Vinyl siding</option>
+            <option>Brick</option>
+            <option>Gutters</option>
+            <option>Fencing</option>
+            <option>Concrete</option>
+            <option>Patios</option>
+            <option>Stain and sealing</option>
+            <option>Equipment</option>
+            <option>Commercial</option>
+            <option>Not sure</option>
+          </select></div>
+        <div class="f"><label for="f-date">Preferred date</label><input type="date" id="f-date" name="preferred_date"></div>
+        <div class="f full"><label for="f-details">Message</label><textarea id="f-details" name="details" placeholder="What would you like cleaned?"></textarea></div>
       </div>
-      <div class="submit">
-        <button class="btn btn-red" type="submit">Send Quote Request</button>
-        <span class="hint">No prices posted. Every job is quoted individually.</span>
-      </div>
+      <div class="send"><button class="btn btn-m" type="submit">Send request</button></div>
     </form>
   </div>
 </section>
 
-<!-- 3. SERVICES -->
-<section class="band light" id="services" aria-labelledby="svc-h">
+<section class="sec" id="faq" aria-labelledby="faq-h">
   <div class="wrap">
-    <div class="sec-head rv">
-      <div class="eyebrow"><span class="drop"></span>What we clean</div>
-      <h2 id="svc-h">Exterior cleaning services</h2>
-      <p class="lead muted">From the roof line to the sidewalk, we match the method to the surface so it comes out clean without being damaged.</p>
-    </div>
-    <div class="svc-grid rv">
-      <article class="svc"><h3><span class="drop"></span>House Washing</h3><p>Cleans exterior walls of dirt, mildew and green growth, and brings back the look of the whole house.</p></article>
-      <article class="svc"><h3><span class="drop"></span>Soft Washing</h3><p>Low pressure with a cleaning solution, for surfaces that high pressure could damage.</p></article>
-      <article class="svc"><h3><span class="drop"></span>Roof Wash</h3><p>Gentle cleaning to remove the dark streaks and buildup that collect on roofs over time.</p></article>
-      <article class="svc"><h3><span class="drop"></span>Vinyl Siding</h3><p>Lifts grime and algae from vinyl siding without harsh pressure against the panels.</p></article>
-      <article class="svc"><h3><span class="drop"></span>Brick</h3><p>Cleans dirt and buildup from brick walls, steps and borders.</p></article>
-      <article class="svc"><h3><span class="drop"></span>Gutters</h3><p>Washes the outside of gutters to remove stains and streaking.</p></article>
-      <article class="svc"><h3><span class="drop"></span>Fencing</h3><p>Cleans vinyl and other fencing of dirt and green growth so it looks fresh again.</p></article>
-      <article class="svc"><h3><span class="drop"></span>Concrete</h3><p>Pressure washing for driveways, slabs and pads, taking concrete back toward its original color.</p></article>
-      <article class="svc"><h3><span class="drop"></span>Sidewalks</h3><p>Cleans walkways at homes and storefronts, in clean, even passes.</p></article>
-      <article class="svc"><h3><span class="drop"></span>Patios</h3><p>Cleans patio surfaces so the outdoor space is ready to use.</p></article>
-      <article class="svc"><h3><span class="drop"></span>Stain &amp; Sealing</h3><p>Stain and sealer to refresh and protect a surface after it has been cleaned.</p></article>
-      <article class="svc"><h3><span class="drop"></span>Equipment Washing</h3><p>Wash-downs for equipment and machinery that need to be cleaned properly.</p></article>
-    </div>
-    <div class="svc-cta rv">
-      <div>
-        <h3>Commercial Cleaning</h3>
-        <p>Storefronts, sidewalks, schools and other commercial properties. See the commercial work below.</p>
-      </div>
-      <a class="btn btn-gold" href="#commercial">See commercial work</a>
-    </div>
-    <div class="qcta rv"><p>Like what you see? Quotes are free.</p><a class="btn btn-red" href="#book" data-quote>Get a Free Quote</a></div>
-  </div>
-</section>
-
-<!-- 4. SOFT VS PRESSURE -->
-<section class="band dark" id="methods" aria-labelledby="vs-h">
-  <div class="wrap">
-    <div class="sec-head rv">
-      <div class="eyebrow"><span class="drop gold"></span>Right method, right surface</div>
-      <h2 id="vs-h">Soft washing vs. pressure washing</h2>
-      <p class="lead" style="color:var(--muted-on-dark)">They are not the same job. Using the wrong one is how roofs and siding get damaged.</p>
-    </div>
-    <div class="versus rv">
-      <div class="vs soft">
-        <span class="tag">Low pressure</span>
-        <h3>Soft wash</h3>
-        <p>Uses gentle water pressure and a cleaning solution that breaks down dirt, mildew and algae, then rinses away. It cleans deeply without blasting the surface.</p>
-        <ul>
-          <li><span class="drop"></span>Roofs</li>
-          <li><span class="drop"></span>Vinyl siding and house exteriors</li>
-          <li><span class="drop"></span>Surfaces that damage easily</li>
-        </ul>
-      </div>
-      <div class="vs hard">
-        <span class="tag">High pressure</span>
-        <h3>Pressure wash</h3>
-        <p>Uses strong water pressure to strip heavy dirt and buildup off hard, durable surfaces. It is fast and effective where the material can take it.</p>
-        <ul>
-          <li><span class="drop"></span>Concrete and driveways</li>
-          <li><span class="drop"></span>Sidewalks and patios</li>
-          <li><span class="drop"></span>Hard, durable surfaces</li>
-        </ul>
-      </div>
-    </div>
-    <p class="vs-note rv">Not sure which your property needs? We look at it, choose the method, and tell you why when we quote.</p>
-  </div>
-</section>
-
-<!-- 5. GALLERY -->
-<section class="band mist" id="work" aria-labelledby="work-h">
-  <div class="wrap">
-    <div class="sec-head rv">
-      <div class="eyebrow"><span class="drop"></span>Our work</div>
-      <h2 id="work-h">Real jobs, real results</h2>
-      <p class="lead muted">Photos from our own jobs. Tap any photo to enlarge it.</p>
-    </div>
-    <div class="gallery rv">
-      <button class="g feature" type="button" data-lb data-cap="Cleaned stripe: before and after in one frame"><img src="photos/sidewalk-siding-cleaned-stripe.jpg" alt="Sidewalk and siding with a clean stripe beside untouched dirty surface, showing the before and after" loading="lazy"><span class="badge">Before / After</span><span class="cap">Cleaned stripe on sidewalk and siding</span></button>
-      <button class="g tall" type="button" data-lb data-cap="Clean concrete sidewalk"><img src="photos/concrete-sidewalk-clean-vertical.jpg" alt="Freshly cleaned concrete sidewalk running away from the camera" loading="lazy"><span class="cap">Concrete sidewalk</span></button>
-      <button class="g" type="button" data-lb data-cap="Pressure washing concrete in action"><img src="photos/concrete-pressure-washing-action.jpg" alt="Surface cleaner spraying a wide fan of water on dirty concrete" loading="lazy"><span class="cap">Concrete in progress</span></button>
-      <button class="g" type="button" data-lb data-cap="Cleaned porch ceiling"><img src="photos/porch-ceiling-clean-1.jpg" alt="Clean porch ceiling after washing" loading="lazy"><span class="cap">Porch ceiling</span></button>
-      <button class="g" type="button" data-lb data-cap="Cleaned porch and door"><img src="photos/porch-door-clean-2.jpg" alt="Clean porch and front door area after washing" loading="lazy"><span class="cap">Porch and door</span></button>
-      <button class="g" type="button" data-lb data-cap="White vinyl fence, cleaned"><img src="photos/white-vinyl-fence-1.jpg" alt="White vinyl fence cleaned of dirt and green growth" loading="lazy"><span class="cap">Vinyl fence</span></button>
-      <button class="g" type="button" data-lb data-cap="White vinyl fence, cleaned"><img src="photos/white-vinyl-fence-2.jpg" alt="Another section of white vinyl fence after cleaning" loading="lazy"><span class="cap">Vinyl fence</span></button>
-      <button class="g" type="button" data-lb data-cap="House exterior and carport"><img src="photos/house-exterior-carport.jpg" alt="House exterior and carport after washing" loading="lazy"><span class="cap">House and carport</span></button>
-    </div>
-    <div class="qcta rv"><p>Like what you see? Quotes are free.</p><a class="btn btn-red" href="#book" data-quote>Get a Free Quote</a></div>
-  </div>
-</section>
-
-<!-- 6. COMMERCIAL -->
-<section class="band dark2" id="commercial" aria-labelledby="com-h">
-  <div class="wrap">
-    <div class="com-text rv">
-      <div>
-        <div class="eyebrow"><span class="drop gold"></span>Commercial</div>
-        <h2 id="com-h">Storefronts, schools and sidewalks</h2>
-        <p class="lead" style="color:var(--muted-on-dark)">A clean entrance is the first thing customers, students and visitors see. We clean commercial exteriors so the property looks cared for.</p>
-      </div>
-      <ul class="com-list">
-        <li><span class="drop"></span>Storefronts and entrances</li>
-        <li><span class="drop"></span>Sidewalks and walkways</li>
-        <li><span class="drop"></span>Schools and institutional buildings</li>
-        <li><span class="drop"></span>Building walls and exteriors</li>
-      </ul>
-    </div>
-    <div class="com-grid rv">
-      <button class="g wide" type="button" data-lb data-cap="Commercial storefront cleaned"><img src="photos/wingstop-storefront-1.jpg" alt="Restaurant storefront exterior after cleaning" loading="lazy"><span class="cap">Storefront</span></button>
-      <button class="g" type="button" data-lb data-cap="Storefront and entrance"><img src="photos/wingstop-storefront-2.jpg" alt="Restaurant storefront entrance with clean walls and walkway" loading="lazy"><span class="cap">Storefront entrance</span></button>
-      <button class="g" type="button" data-lb data-cap="Side wall and sidewalk"><img src="photos/wingstop-side-wall-sidewalk.jpg" alt="Side wall and sidewalk of a commercial building after washing" loading="lazy"><span class="cap">Side wall and sidewalk</span></button>
-      <button class="g" type="button" data-lb data-cap="School sign, Eufaula Elementary"><img src="photos/school-sign-eufaula-elementary.jpg" alt="Elementary school sign cleaned at the front of the school" loading="lazy"><span class="cap">School sign</span></button>
-      <button class="g" type="button" data-lb data-cap="School entrance steps"><img src="photos/school-entrance-steps.jpg" alt="School entrance steps after pressure washing" loading="lazy"><span class="cap">School entrance steps</span></button>
-      <button class="g wide" type="button" data-lb data-cap="Field house building"><img src="photos/field-house-building.jpg" alt="Field house building exterior after cleaning" loading="lazy"><span class="cap">Field house</span></button>
-    </div>
-    <p class="fine rv">Photos show work completed at these locations. Business and school names appear only to identify the job site and do not imply endorsement.</p>
-  </div>
-</section>
-
-<!-- 7. HOW IT WORKS -->
-<section class="band light" id="process" aria-labelledby="how-h">
-  <div class="wrap">
-    <div class="sec-head rv">
-      <div class="eyebrow"><span class="drop"></span>How it works</div>
-      <h2 id="how-h">Four steps, no surprises</h2>
-    </div>
-    <div class="steps rv">
-      <div class="step"><div class="n">1</div><h3>Request a quote</h3><p>Fill out the form below or call 918-424-1283. Tell us what you would like cleaned.</p></div>
-      <div class="step"><div class="n">2</div><h3>We inspect and quote</h3><p>We look at the job, pick the right method, and give you a quote.</p></div>
-      <div class="step"><div class="n">3</div><h3>We clean</h3><p>We come out on the day we agreed on and do the work.</p></div>
-      <div class="step"><div class="n">4</div><h3>You enjoy the results</h3><p>Walk the property with us and enjoy a cleaner home or business.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- 8. ABOUT -->
-<section class="band dark" id="about" aria-labelledby="about-h">
-  <div class="wrap about">
-    <div class="rv">
-      <div class="eyebrow"><span class="drop gold"></span>About Connor</div>
-      <h2 id="about-h">Local, owner-operated, honest work</h2>
-      <p style="margin-top:22px">Powers Washing Services is owned and operated by Connor Powers in McAlester, Oklahoma. When you call, you talk to the person who does the work.</p>
-      <p>The goal is simple: clean the job right, treat your property with care, and tell you straight what it needs. No inflated promises, and no pressure to book.</p>
-      <div class="sig">Connor Powers<small>Owner &amp; Operator</small></div>
-    </div>
-    <div class="card rv">
-      <img src="photos/cover.jpg" alt="Powers Washing Service business card: Connor Powers, Owner and Operator, 918.424.1283, with the red and gold PWS droplet logo" loading="lazy">
-    </div>
-  </div>
-</section>
-
-<!-- 9. REVIEWS -->
-<section class="band light" id="reviews" aria-labelledby="rev-h">
-  <div class="wrap">
-    <div class="rev-top rv">
-      <div>
-        <div class="eyebrow"><span class="drop"></span>Reviews</div>
-        <h2 id="rev-h">Reviews from our Facebook customers</h2>
-      </div>
-      <a class="btn btn-red" href="https://www.facebook.com/powerswashingservices" target="_blank" rel="noopener">Read reviews on Facebook</a>
-    </div>
-    <p class="lead muted rv" style="margin:0 0 28px">100% of reviewers recommend us on Facebook, across 16 reviews.</p>
-    <div class="rev-grid rv">
-      <figure class="rev" style="margin:0"><q>Connor did a great job cleaning the black streaks off my roof. He was professional, knowledgeable, and easy to work with. I’ll definitely call Powers Washing Services if I need anything in the future.</q><figcaption class="who">Glen, from Facebook</figcaption></figure>
-      <figure class="rev" style="margin:0"><q>Professional from beginning to end. Fair pricing and came out cleaner than I even expected! Best there is around.</q><figcaption class="who">Clint, from Facebook</figcaption></figure>
-      <figure class="rev" style="margin:0"><q>I have used this business for cleaning up of the exterior of my investment properties. They did an outstanding job in a timely fashion, and a reasonable rate! Highly recommended!</q><figcaption class="who">Heidi, from Facebook</figcaption></figure>
-    </div>
-    <p class="rev-note rv">See what customers say on our <a href="https://www.facebook.com/powerswashingservices" target="_blank" rel="noopener">Facebook page</a>.</p>
-  </div>
-</section>
-
-<!-- 10. SERVICE AREA -->
-<section class="band dark2" id="area" aria-labelledby="area-h">
-  <div class="wrap area">
-    <div class="rv">
-      <div class="big" id="area-h" role="heading" aria-level="2">Based in<span>McAlester</span></div>
-    </div>
-    <div class="rv">
-      <div class="eyebrow"><span class="drop gold"></span>Service area</div>
-      <p class="lead" style="margin-top:0">We work out of McAlester, OK 74501 and serve the surrounding communities across Southeast Oklahoma.</p>
-      <ul>
-        <li><span class="drop"></span>McAlester</li>
-        <li><span class="drop"></span>Southeast Oklahoma</li>
-        <li><span class="drop"></span>Surrounding areas</li>
-      </ul>
-      <p style="margin-top:22px;color:var(--muted-on-dark)">Not sure you are in range? Call 918-424-1283 and ask.</p>
-    </div>
-  </div>
-</section>
-
-<!-- 12. FAQ -->
-<section class="band dark" id="faq" aria-labelledby="faq-h">
-  <div class="wrap">
-    <div class="sec-head rv">
-      <div class="eyebrow"><span class="drop gold"></span>Questions</div>
-      <h2 id="faq-h">Frequently asked questions</h2>
-    </div>
+    <div class="head rv"><h2 id="faq-h">Questions</h2></div>
     <div class="faq rv">
-      <details>
-        <summary>Do I need to be home during the cleaning?</summary>
-        <p>Usually not, as long as we can reach the areas being cleaned and have access to an outdoor water source. We will confirm the details with you when we quote the job.</p>
-      </details>
-      <details>
-        <summary>Is soft washing safe for roofs?</summary>
-        <p>Yes. Soft washing uses low pressure and a cleaning solution, which is the right method for roofs and siding. High pressure can damage those surfaces, so we save it for hard surfaces like concrete.</p>
-      </details>
-      <details>
-        <summary>What do you need from me?</summary>
-        <p>The address, what you would like cleaned, and a good day to come out. Photos help if you have them. Tell us about anything delicate, such as plants, loose trim or areas that need extra care.</p>
-      </details>
-      <details>
-        <summary>Do you do commercial work?</summary>
-        <p>Yes. We clean storefronts, sidewalks, school and institutional exteriors, and other commercial properties, as well as homes.</p>
-      </details>
-      <details>
-        <summary>How do I get a quote?</summary>
-        <p>Fill out the quote form on this page or call 918-424-1283. We will look at the job, then give you a quote with no pressure to book.</p>
-      </details>
+      <details><summary>Do I need to be home during the cleaning?</summary><p>Usually not, as long as we can reach the areas being cleaned and have access to an outdoor water source. We will confirm the details with you when we quote the job.</p></details>
+      <details><summary>Is soft washing safe for roofs?</summary><p>Yes. Soft washing uses low pressure and a cleaning solution, which is the right method for roofs and siding. High pressure can damage those surfaces, so we save it for hard surfaces like concrete.</p></details>
+      <details><summary>What do you need from me?</summary><p>The address, what you would like cleaned, and a good day to come out. Photos help if you have them. Tell us about anything delicate, such as plants, loose trim or areas that need extra care.</p></details>
+      <details><summary>Do you do commercial work?</summary><p>Yes. We clean storefronts, sidewalks, school and institutional exteriors, and other commercial properties, as well as homes.</p></details>
+      <details><summary>How do I get a quote?</summary><p>Fill out the quote form on this page or call 918-424-1283. We will look at the job, then give you a quote with no pressure to book.</p></details>
     </div>
   </div>
 </section>
-
 </main>
 
-<!-- 13. FOOTER -->
 <footer>
   <div class="wrap">
-    <div class="foot">
-      <div>
-        <a class="brand" href="#top" style="margin-bottom:16px">
-          <img src="photos/logo.jpg" width="64" height="64" alt="Powers Washing Services logo" loading="lazy">
-          <b>Powers <i>Washing</i> Services</b>
-        </a>
-        <p>Pressure washing and soft washing for homes and businesses in McAlester and Southeast Oklahoma.</p>
-      </div>
-      <div>
-        <h4>Contact</h4>
-        <a class="ph" href="tel:+19184241283">918-424-1283</a>
-        <a href="mailto:powerswashingservices@yahoo.com">powerswashingservices@yahoo.com</a>
-        <p>Connor Powers, Owner &amp; Operator</p>
-      </div>
-      <div>
-        <h4>Service area</h4>
-        <p>McAlester, OK 74501</p>
-        <p>Southeast Oklahoma and surrounding areas</p>
-        <a href="https://www.facebook.com/powerswashingservices" target="_blank" rel="noopener">Facebook: powerswashingservices</a>
-      </div>
+    <div class="ft">
+      <div><a class="big" href="tel:+19184241283">918-424-1283</a><a href="mailto:powerswashingservices@yahoo.com">powerswashingservices@yahoo.com</a></div>
+      <div><p>Connor Powers, Owner &amp; Operator</p><p>McAlester, OK and Southeast Oklahoma</p></div>
+      <div><a href="https://www.facebook.com/powerswashingservices" target="_blank" rel="noopener">Facebook</a></div>
     </div>
-    <div class="copy">
-      <span>&copy; <span id="yr">2026</span> Powers Washing Services LLC. All rights reserved.</span>
-      <span>McAlester, Oklahoma</span>
-      <span>Website by <a href="https://seksites.com" target="_blank" rel="noopener">SEKsites</a></span>
-    </div>
+    <div class="copy"><span>&copy; <span id="yr">2026</span> Powers Washing Services LLC</span><span>Website by <a href="https://seksites.com" target="_blank" rel="noopener">SEKsites</a></span></div>
   </div>
 </footer>
 
-<div class="mbar">
-  <a class="btn btn-gold" href="#book" data-quote>Get a Free Quote</a>
-  <a class="btn btn-red" href="tel:+19184241283">Call</a>
-</div>
-
-<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Photo viewer">
-  <button class="x" type="button" id="lbX">Close</button>
-  <button class="pv" type="button" id="lbP" aria-label="Previous photo">Prev</button>
-  <figure><img id="lbImg" alt="" src=""><figcaption id="lbCap"></figcaption></figure>
-  <button class="nx" type="button" id="lbN" aria-label="Next photo">Next</button>
-</div>
+<div class="mbar"><a class="btn btn-m" href="#book">Get a Free Quote</a><a class="btn btn-o" href="tel:+19184241283">Call</a></div>
 
 <script>
 (function(){
-  /* year */
-  var y=document.getElementById('yr'); if(y) y.textContent=new Date().getFullYear();
-
-  /* mobile menu */
-  var mb=document.getElementById('menuBtn'), nav=document.getElementById('nav');
-  mb.addEventListener('click',function(){
-    var o=nav.classList.toggle('open'); mb.setAttribute('aria-expanded',o?'true':'false'); mb.textContent=o?'Close':'Menu';
-  });
-  nav.addEventListener('click',function(e){
-    if(e.target.tagName==='A'){nav.classList.remove('open');mb.setAttribute('aria-expanded','false');mb.textContent='Menu';}
-  });
-
-  /* scroll reveal */
+  var y=document.getElementById('yr');if(y)y.textContent=new Date().getFullYear();
   var rv=[].slice.call(document.querySelectorAll('.rv'));
-  if('IntersectionObserver' in window){
-    var io=new IntersectionObserver(function(es){
-      es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
-    },{threshold:.08,rootMargin:'0px 0px -6% 0px'});
-    rv.forEach(function(el){io.observe(el);});
-  } else { rv.forEach(function(el){el.classList.add('in');}); }
-
-  /* lightbox */
-  var items=[].slice.call(document.querySelectorAll('[data-lb]'));
-  var lb=document.getElementById('lb'), lbImg=document.getElementById('lbImg'), lbCap=document.getElementById('lbCap');
-  var idx=0, lastFocus=null;
-  function show(i){
-    idx=(i+items.length)%items.length;
-    var img=items[idx].querySelector('img');
-    lbImg.src=img.getAttribute('src'); lbImg.alt=img.getAttribute('alt')||'';
-    lbCap.textContent=items[idx].getAttribute('data-cap')||'';
-  }
-  function open(i){ lastFocus=document.activeElement; show(i); lb.classList.add('on'); document.body.style.overflow='hidden'; document.getElementById('lbX').focus(); }
-  function close(){ lb.classList.remove('on'); document.body.style.overflow=''; if(lastFocus&&lastFocus.focus) lastFocus.focus(); }
-  items.forEach(function(el,i){ el.addEventListener('click',function(){open(i);}); });
-  document.getElementById('lbX').addEventListener('click',close);
-  document.getElementById('lbP').addEventListener('click',function(){show(idx-1);});
-  document.getElementById('lbN').addEventListener('click',function(){show(idx+1);});
-  lb.addEventListener('click',function(e){ if(e.target===lb) close(); });
-  document.addEventListener('keydown',function(e){
-    if(!lb.classList.contains('on')) return;
-    if(e.key==='Escape') close();
-    else if(e.key==='ArrowLeft') show(idx-1);
-    else if(e.key==='ArrowRight') show(idx+1);
-  });
-
-  /* form: return to this page with #thanks, earliest date is today */
-  var next=document.getElementById('nextUrl');
-  if(next && /^https?:/.test(location.href)){ next.value=location.href.split('#')[0]+'#thanks'; }
-  var d=document.getElementById('f-date');
-  if(d){ var t=new Date(); var m=('0'+(t.getMonth()+1)).slice(-2), dd=('0'+t.getDate()).slice(-2); d.min=t.getFullYear()+'-'+m+'-'+dd; }
-})();
-</script>
-<script>
-(function(){
+  if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.06});rv.forEach(function(el){io.observe(el);});}else{rv.forEach(function(el){el.classList.add('in');});}
+  var next=document.getElementById('nextUrl');if(next&&/^https?:/.test(location.href)){next.value=location.href.split('#')[0]+'#thanks';}
+  var d=document.getElementById('f-date');if(d){var t=new Date();d.min=t.getFullYear()+'-'+('0'+(t.getMonth()+1)).slice(-2)+'-'+('0'+t.getDate()).slice(-2);}
   var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
   document.addEventListener('click',function(e){
-    var a=e.target.closest&&e.target.closest('a[href="#book"]'); if(!a)return;
-    var t=document.getElementById('book'),f=document.getElementById('f-name'); if(!t)return;
-    e.preventDefault();
-    var nav=document.getElementById('nav'),mb=document.getElementById('menuBtn');
-    if(nav&&nav.classList.contains('open')){nav.classList.remove('open');if(mb)mb.setAttribute('aria-expanded','false');}
-    t.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});
-    if(f)setTimeout(function(){f.focus({preventScroll:true});},reduce?0:650);
+    var a=e.target.closest&&e.target.closest('a[href="#book"]');if(!a)return;
+    var t=document.getElementById('book'),f=document.getElementById('f-name');if(!t)return;
+    e.preventDefault();t.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});
+    if(f)setTimeout(function(){f.focus({preventScroll:true});},reduce?0:700);
     if(history.replaceState)history.replaceState(null,'','#book');
   });
 })();
